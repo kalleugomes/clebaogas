@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Butijão cinza - Clebão do gás</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="botijao_cinza.css">
+
+    </head>
+
+    <body>
+        <header class="cabecario">
+            <div class="caixa">    
+                <h1><img src="Butijão Cabeçário.png"></h1>
+    
+                    <h2>Clebão do gás</h2>
+    
+                    <p class="img_login"><a href="pagina_login.html"><img  class="login" src="Imagem Login(preto).png"></a></p>
+                <nav>
+                    
+                    <ul>
+                        <li><a href="Pgn_princpal remaster.html">Home</a></li>
+                        <li><a href="Remaster butijão.html">Produtos</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
+        </header>
+
+        <main>
+            <div class="descricao_butijao">
+                <h3>Butijão normal</h3>
+                <br>
+
+                <div class="descricao_imga">
+                <img src="Butijão cinza.jpeg" alt="butijão de gás cinza">
+                </div>
+
+                <br>
+
+                <p class="subtitulo">Descrição: </p>
+                <p>Butijão normal, nada de especial.</p><br>
+
+                <p class="subtitulo">Peso: </p>
+                <p>13Kg</p> <br>
+
+                <p class="subtitulo">Litros: </p>
+                <P>31,5L</P>
+            </div>
+
+            <div class="Pagamento">
+                <h2>Pagamento</h2>
+
+                <h3>Efetue o login</h3>
+                <label for="email">Email: </label>
+                <input class="input_padrao" id="email" type="text" required placeholder="seuemail@dominio.com">
+
+                <label for="senha">Senha: </label>
+                <input class="input_padrao" id="senha" type="password" required placeholder="Sua senha registrada">
+
+                <p>Não possue um login? <a class="registrar" href="pagina_login.html">Registre-se</a></p>
+
+                <h3>Conclua o Pagamento</h3>
+                <fieldset>
+                    <legend>Qual a forma de pagamento?</legend>
+                    <label for="radio-cartaocredito">
+                        <input required type="radio" name="forma" value="cartaocredito" id="radio-cartaocredito" checked>Cartão de crédito
+                    </label>
+    
+                    <label for="radio-boleto">
+                        <input required type="radio" name="forma" value="boleto" id="radio-boleto">Boleto bancário
+                    </label>
+    
+                    <label for="radio-pix">
+                        <input required type="radio" name="forma" value="pix" id="radio-pix">Pix
+                    </label>
+                </fieldset>
+
+                <label class="label_padrao" for="Telefone">Telefone</label>
+                <input class="input_padrao" type="tel" id="Telefone" required placeholder="(XX) X XXXX-XXXX">
+
+                <label class="label_padrao" for="cpf">CPF</label>
+                <input type="text" class="input_padrao" id="cpf" required placeholder="XXX.XXX.XXX-XX">
+                
+                <fieldset class="tranasporte">
+                    <legend>Onde prefere receber notificações do transporte?</legend>
+                        <select>
+                            <option>Whatsapp</option>
+                            <option>Telefone</option>
+                            <option>Email</option>
+                        </select>
+                </fieldset>
+
+                <input type="submit" value="Concluir Compra" class="enviar">
+            </div>
+        </main>
+
+        <footer>
+            <img class="rodape" src="Butijão Cabeçário.png">
+            <p>&copy; Todos os direitos reservdos.</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+body {
+    background-color: gray;
+}
+.cabecario {
+    background-color: rgba(167, 160, 73, 0.521);
+    margin-bottom: 10px;
+    text-align: center;
+}
+h1 {
+    background-color: rgba(0, 0, 255, 0.473);
+    border: solid 10px black;
+    text-align: center;
+}
+.cabecarioB {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.conteudo {
+    background-color: white;
+    border: 3px solid black
+}
+.imgconteudo {
+    width: 500px;
+    height: 500px;
+}
+.textoconteudo1 {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+.textoconteudo2 {
+    font-size: 30px;
+}

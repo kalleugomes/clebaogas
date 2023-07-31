@@ -1,0 +1,306 @@
+body {
+    height: 100%;
+    background: linear-gradient(to top, white, rgb(113, 112, 173) );
+    background-size: 100%, 100%;
+}
+
+
+/*cabecario*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 110;
+    width: 100%;
+    background-color: rgb(143, 142, 212);
+    border-top: black 3px solid;
+    border-bottom: black 3px solid;
+} 
+
+
+.caixa {
+   width: 1000px;
+   height: 100px;
+   position: relative;
+   margin: 0 auto;
+   padding: 13px; 
+}
+
+header img {
+    width: 7%;
+}
+
+header h2 {
+    position: absolute;
+    top: 0;
+    margin-left: 35%;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 50px;
+    margin-right: 55px;
+}
+
+.login {
+    width: 9%;;
+}
+
+.img_login {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+    margin-top: 38px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: none;
+    color: orange;
+    text-decoration: underline;
+}
+
+
+/*conteudo*/
+main {
+    margin-top: 200px;
+}
+
+.conteudo {
+    background-color: rgb(90, 90, 221);
+    box-shadow: 0 0 0 2px black;
+    border-radius: 20px;
+    width: 940px;
+    margin: 200px auto 0;
+    margin-top: 100px;
+    padding: 15px;
+}
+
+.conteudo li {
+    display: inline-block;
+    width: 30%;
+}
+
+.textos {
+    vertical-align: top;
+    margin-right: 1.5%;
+    margin-top: 15px;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.conteudo_txt {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.conteudo_txt2 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+} 
+
+.conteudo img {
+    border-radius: 20px;
+    width: 225%;
+}
+
+.localizacao {
+    background-color: lightgray;
+    padding: 100px 50px;
+    width: 90%;
+    margin: 100px auto 0;
+    border-radius: 10px;
+}
+
+.local {
+    width: 50%; 
+    height: 450px;
+    border: 1px black solid;
+}
+
+.localizacao_desc {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 15%;
+}
+
+.localizacao_desc h3 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-shadow: 0.1em 0.1em 0.2em rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.localizacao_desc p {
+    text-shadow: 0.1em 0.1em 0.2em rgb(255, 255, 255);
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: left;
+}
+
+.funcionamento {
+    background-color: lightgray;
+    padding: 40px 20px;
+    padding-bottom: 100px;
+    width: 90%;
+    margin: 100px auto 0;
+    border-radius: 10px;
+}
+
+table {
+    display: inline-block;
+    margin-top: 10px;
+    width: 50%;
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-size: 18px;
+}
+
+
+th, td {
+    border: 1px black solid;
+    padding: 15px 10px;
+    font-size: 18px;
+    width: 3%;
+}
+
+.funcionamento_desc {
+    margin-left: 10%;
+    margin-top: 10px;
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+}
+
+.funcionamento_desc h3 {
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-shadow: 0.1em 0.1em 0.2em rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.funcionamento_desc p {
+    text-shadow: 0.1em 0.1em 0.2em rgb(255, 255, 255);
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: right;
+    vertical-align: top;
+}
+
+.botao_login {
+    background-color: orange;
+    margin-top: 30px;
+    width: 100%;
+    padding: 30px 0;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.botao_login:hover {
+    background-color: orangered; 
+    transform: scale(1.07);
+}
+
+.mais-informacoes {
+    margin-top: 100px;
+    padding: 80px 30px;
+}
+
+.informacoes_desc {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 15%;
+}
+
+.informacoes_desc h3 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-shadow: 0.1em 0.1em 0.2em rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.informacoes_desc p {
+    text-shadow: 0.1em 0.1em 0.2em rgb(255, 255, 255);
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: left;
+}
+
+.botao_produtos {
+    background-color: rgb(255, 110, 110);
+    margin-top: 30px;
+    width: 100%;
+    padding: 30px 0;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.botao_produtos:hover {
+    background-color: red; 
+    transform: scale(1.07);
+}
+
+.video {
+    width: 50%; 
+    height: 315px
+}
+
+/*Rodapé*/
+footer {
+    margin-top: 100px;
+    border-top: gray solid 3px;
+    border-bottom: black solid 3px;
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+.rodape {
+    width: 5%;
+}

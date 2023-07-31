@@ -1,0 +1,57 @@
+body {
+    background-color: gray;
+}
+h1 {
+    background-color: rgba(0, 0, 255, 0.473);
+    border: solid 5px black;
+    text-align: center;
+}
+.cabecario {
+    background-color: rgba(167, 160, 73, 0.521);
+    margin-bottom: 5px;
+    text-align: center;
+}
+.cinza {
+    background-color: white;
+    border: black solid 3px;
+    margin-bottom: 5px;
+}
+.butijao1 {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+.valor1 {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20%;
+}
+.dourado {
+    background-color: white;
+    border: black 3px solid;
+    margin-bottom: 5px;
+}
+.butijao2 {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+.valor2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20%;
+}
+.petista {
+    background-color: white;
+    border: solid black 3px;
+}
+.butijao3 {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+.valor3 {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20%;
+}
